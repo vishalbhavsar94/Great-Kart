@@ -1,0 +1,23 @@
+
+--> pip install django 
+--> jango-admin startproject projectname
+--> pip install virtualenv
+--> myvenv\Scripts\activate.bat
+
+
+
+posgresql 
+--> pip install psycopg2
+
+database settings
+
+DATABASES = {
+    'default': {
+        'ENGINE': 'django.db.backends.postgresql_psycopg2',
+        'NAME': 'portfoliodb',
+        'USER': 'postgres',
+        'PASSWORD': '7600vish',
+        'HOST': 'localhost',
+        'PORT': '5432',
+    }
+}
